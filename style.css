@@ -1,0 +1,51 @@
+body {
+  background-color: #C2F56E;
+}
+
+.container {
+   display: flex;
+   gap: 20px;
+}
+
+.card {
+   width: 400px;
+   background-color: burlywood;
+   border-radius: 30px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    background-color: #FF4040;
+    transition: 1s;
+}
+
+.photo {
+   width: 100%;
+   height: 300px; /* Задаем высоту для блока с фото */
+   overflow: hidden;
+   position: relative;
+   left:20%;
+}
+
+.photo img {
+   width: 60%;
+   object-fit: cover; /* Обеспечивает корректное масштабирование изображения */
+   border-bottom: 2px solid #fff;
+}
+
+.info {
+   padding: 20px;
+   text-align: center;
+}
+
+.info h1 {
+   margin: 0;
+   font-size: 24px;
+   color: #333;
+}
+
+.info p {
+   margin: 10px 0;
+   color: #555;
+}
